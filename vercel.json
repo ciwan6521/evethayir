@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "evlenme_teklifi.html",
+            "use": "@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/evlenme_teklifi.html"
+        }
+    ]
+} 
